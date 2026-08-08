@@ -24,17 +24,26 @@ modal.onclick = (e) => {
     modal.classList.remove("flex");
   }
 };
+const iopenBtn = document.getElementById("openCertificatee");
+const imodal = document.getElementById("certificateModall");
+const icloseBtn = document.getElementById("closeCertificatee");
 
+iopenBtn.onclick = () => {
+  imodal.classList.remove("hidden");
+  imodal.classList.add("flex");
+};
 
-// const menuBtn = document.getElementById("menu-btn");
-// const mobileMenu = document.getElementById("mobile-menu");
+icloseBtn.onclick = () => {
+ imodal.classList.add("hidden");
+  imodal.classList.remove("flex");
+};
 
-// menuBtn.addEventListener("click", function(){
-
-// })
-// mobileMenu.addEventListener("click", function(){
-
-// })
+modal.onclick = (e) => {
+  if (e.target === modal) {
+    imodal.classList.add("hidden");
+    imodal.classList.remove("flex");
+  }
+};
 
 
 
