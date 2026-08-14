@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/output.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/adp.png"
+      class="rounded-full"
+    />
+  </head>
+  <body class="bg-[#FBFBFB]">
+    <main class="max-w-4xl mx-auto py-8 px-5 md:px-1 overflow-hidden">
+      <section class="justify-between items-center flex">
+        <div class="">
+          <a href="" class="font-bold text-hitam text-2xl">Adprian.</a>
+        </div>
+        <div class="hidden md:flex">
+          <nav class="space-x-8">
+            <a href="#home">Home</a>
+            <a href="#pengalaman">Pengalaman</a>
+            <a href="#project">Project</a>
+            <a href="#kontak">Kontak</a>
+          </nav>
+        </div>
+        <div class="hidden md:flex" id="home">
+          <a
+            href="./assets/CV-Adprian.pdf"
+            class="py-2 px-6 inline-block font-semibold text-white bg-hitam rounded-full"
+            download="CV-Adprian"
+            >Unduh CV
+          </a>
+        </div>
+        <button class="md:hidden items-center flex" id="menu-btn">
+          <i class="bx bx-menu text-3xl" id="menu-icon"></i>
+        </button>
+      </section>
+      <div class="hidden" id="mobile-menu">
+        <div class="">
+          <nav class="space-y-8 flex flex-col">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#pengalaman" class="mobile-link">Pengalaman</a>
+            <a href="#project" class="mobile-link">Project</a>
+            <a href="#kontak" class="mobile-link">Kontak</a>
+          </nav>
+        </div>
+        <div class="">
+          <a
+            href="./assets/CV-Adprian.pdf"
+            class="mt-8 py-2 px-6 inline-block w-full text-center font-semibold text-white bg-hitam rounded-full"
+            download="CV-Adprian"
+            >Unduh CV
+          </a>
+        </div>
+      </div>
+      <section class="mt-20">
+        <a href="/index.html" class="text-slate-400 text-[16px]"
+          >&larr; Kembali ke beranda</a
+        >
+        <h1 class="text-4xl my-4 font-bold">Moreps</h1>
+        <div class="flex flex-wrap items-center text-[14px] gap-3 my-4">
+          <p class="text-white bg-hitam rounded-2xl px-4">Flutter</p>
+          <p class="text-white bg-hitam rounded-2xl px-4">Dart</p>
+          <p class="text-white bg-hitam rounded-2xl px-4">Supabase</p>
+        </div>
+        <img src="/assets/thumbnailmr.png" alt="" class="rounded-2xl w-full" />
+      </section>
+      <section class="mt-10">
+        <div class="space-y-3 max-w-3xl text-justify">
+          <h1 class="font-black text-2xl">Ringkasan Proyek</h1>
+          <p class="">
+           Moreps adalah aplikasi pelacak kebugaran komprehensif yang dirancang khusus bagi penggemar olahraga angkat beban untuk merencanakan, mencatat secara real-time, dan mengevaluasi progres rutinitas latihan mereka. Project ini berfokus pada pembuatan aplikasi mobile dengan antarmuka gelap premium yang bersih, intuitif, dan memotivasi pengguna untuk melampaui batasan mereka.
+          </p>
+          <h1 class="font-black text-2xl">Tantangan</h1>
+          <p class="">
+           Banyak individu yang pergi ke gym masih kesulitan melacak detail latihan (variasi gerakan, repetisi, beban, dan durasi istirahat) karena pencatatan yang masih manual atau sekadar mengandalkan ingatan. Tantangannya adalah bagaimana menyajikan fungsionalitas pencatatan yang kompleks ini ke dalam ekosistem digital yang seamless, mudah dioperasikan dengan satu tangan saat sedang berlatih, dan harus diselesaikan dalam waktu pengembangan (MVP) yang sangat singkat yakni 3 minggu.
+          </p>
+
+          <h1 class="font-black text-2xl">Solusi</h1>
+          <p class="">
+          Kami merancang aplikasi mobile dengan struktur yang sangat berfokus pada alur pengguna saat di gym. Solusinya meliputi pembuatan pustaka gerakan (Exercise Library), Workout Builder agar pengguna bisa menyusun template latihan sendiri, hingga Active Session yang dilengkapi dengan pengatur waktu istirahat otomatis. Seluruh data tersebut kemudian direkap ke dalam visualisasi analitik agar pengguna dapat melihat perkembangan kekuatan mereka.
+          </p>
+          <h1 class="font-black text-2xl">Fitur Utama</h1>
+          <ul class="list-disc list-inside">
+            <li class="">Exercise Library dengan 50+ data gerakan bawaan</li>
+            <li class="">Custom Workout Builder (menyusun template latihan mandiri)</li>
+            <li class="">Active Workout Session dengan Smart Rest Timer</li>
+            <li class="">Workout History & Kalender Visual</li>
+            <li class="">Deteksi Personal Record (PR) Otomatis</li>
+          </ul>
+          <h1 class="font-black text-2xl">Output</h1>
+          <p class="">
+           Menghasilkan versi Minimum Viable Product (MVP) aplikasi yang 100% fungsional, dirilis tepat waktu sesuai jadwal (3 minggu), dan berhasil memberikan platform pencatatan latihan yang efisien tanpa adanya bug kritis saat dijalankan di perangkat
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/src/js/main.js"></script>
+  </body>
+</html>
